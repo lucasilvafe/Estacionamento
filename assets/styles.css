@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(88, 88, 88);
+}
+.logo-marca{
+    border: red solid;
+    padding-left: 5%;
+    width: 50%;
+}
+
+.meu-perfil{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+    width: 50%;
+}
+
+/*Botão do perfil*/
+.perfil{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 90px;
+    height: 70px;
+}
+
+#icone-perfil{
+    width: 50px;
+    height: 50px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    height: 850px;
+}
+/*Inicio Parte dos campos de inputs*/
+.area-inputs{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.inputs{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10%;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+}
+/*Botão de seleção de vaga*/
+#selecionar-vaga{
+    margin-top: 10%;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+/*Fim Parte dos campos de inputs*/
+
+/*Inicio area de pesquisa de veiculos*/
+.area-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.conteudo-search{
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    height: 97%;
+    border-radius: 10px;
+    background-color: #262626;
+}
+
+#pesquisa{
+    width: 95%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+/*Fim area de pesquisa de veiculos*/

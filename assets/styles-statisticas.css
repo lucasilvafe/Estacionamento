@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(88, 88, 88);
+}
+
+.area-voltar{
+    padding-left: 5%;
+    width: 50%;
+}
+
+.meu-perfil{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+    width: 50%;
+}
+
+/*Botão do perfil*/
+.perfil{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 90px;
+    height: 70px;
+}
+
+#icone-grafico{
+    width: 50px;
+    height: 50px;
+}
+
+#icone-voltar{
+    width: 50px;
+    height: 50px;
+}
+
+.home{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 850px;
+}
+
+.historico-estacionamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #515151;
+    width: 450px;
+    height: 600px;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+.total-arrecadado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #515151;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#icones-superior{
+    margin-top: 8%;
+    width: 50px;
+    height: 50px;
+}
+
+h3{
+    margin-top: 2%;
+}
